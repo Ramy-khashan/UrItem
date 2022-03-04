@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "H:\\tasks\\UrItem-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "H:\\Ramy\\Flutter Coures\\full app\\in process\\UrItem\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "H:\\tasks\\UrItem-main\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,807",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,971"
-                    },
-                    "to": {
-                        "startLines": "134,139",
-                        "startColumns": "4,4",
-                        "startOffsets": "9762,10059",
-                        "endLines": "138,141",
-                        "endColumns": "12,12",
-                        "endOffsets": "10054,10223"
-                    }
-                },
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\14b93615368c2249f1830e26ca064ab5\\core-1.6.0\\res\\values\\values.xml",
                     "from": {
@@ -73,6 +54,42 @@
                         "startOffsets": "722,780,846,909,1774,1845",
                         "endColumns": "57,65,62,61,70,71",
                         "endOffsets": "775,841,904,966,1840,1912"
+                    }
+                },
+                {
+                    "source": "H:\\Ramy\\Flutter Coures\\full app\\in process\\UrItem\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,198,279,383,491,611,707",
+                        "endColumns": "142,80,103,107,119,95,72",
+                        "endOffsets": "193,274,378,486,606,702,775"
+                    },
+                    "to": {
+                        "startLines": "126,127,128,129,130,131,132",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8966,9109,9190,9294,9402,9522,9618",
+                        "endColumns": "142,80,103,107,119,95,72",
+                        "endOffsets": "9104,9185,9289,9397,9517,9613,9686"
+                    }
+                },
+                {
+                    "source": "H:\\Ramy\\Flutter Coures\\full app\\in process\\UrItem\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,807",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,971"
+                    },
+                    "to": {
+                        "startLines": "134,139",
+                        "startColumns": "4,4",
+                        "startOffsets": "9762,10059",
+                        "endLines": "138,141",
+                        "endColumns": "12,12",
+                        "endOffsets": "10054,10223"
                     }
                 },
                 {
@@ -130,23 +147,6 @@
                         "endLines": "8,9,10,11,87,165,169,449,466,474",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "400,460,512,557,5561,11683,11880,27392,28506,28899"
-                    }
-                },
-                {
-                    "source": "H:\\tasks\\UrItem-main\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,198,279,383,491,611,707",
-                        "endColumns": "142,80,103,107,119,95,72",
-                        "endOffsets": "193,274,378,486,606,702,775"
-                    },
-                    "to": {
-                        "startLines": "126,127,128,129,130,131,132",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8966,9109,9190,9294,9402,9522,9618",
-                        "endColumns": "142,80,103,107,119,95,72",
-                        "endOffsets": "9104,9185,9289,9397,9517,9613,9686"
                     }
                 }
             ]

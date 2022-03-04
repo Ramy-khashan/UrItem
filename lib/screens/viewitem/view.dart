@@ -17,6 +17,7 @@ class ViewItemScreen extends StatelessWidget {
       create: (context) => ViewItemController(),
       child: Scaffold(
         appBar: AppBar(
+          toolbarHeight: size.longestSide * .11,
           title: Center(
             child: Text(
               "Item",
@@ -38,7 +39,6 @@ class ViewItemScreen extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: size.shortestSide * .02),
           child: BlocBuilder<ViewItemController, ViewItemStates>(
             builder: (context, state) {
-              final controller = ViewItemController.get(context);
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
@@ -66,6 +66,11 @@ class ViewItemScreen extends StatelessWidget {
                         ),
                       ],
                     ),
+                  ),
+                  ViewItem(
+                    size: size,
+                    data:
+                        "${data![index!]["day"]}/${data![index!]["month"]}/${data![index!]["year"]}",
                   ),
                   ViewItem(
                     size: size,

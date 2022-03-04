@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
+
 class ItemShape extends StatelessWidget {
-  const ItemShape({this.name, this.date, this.price, Key? key})
+  const ItemShape({this.onDelete, this.name, this.date, this.price, Key? key})
       : super(key: key);
   final String? name;
 
   final String? date;
 
   final String? price;
+  final Function()? onDelete;
 
   @override
   Widget build(BuildContext context) {
@@ -39,6 +41,13 @@ class ItemShape extends StatelessWidget {
             color: Colors.grey.shade500,
           ),
         ),
+        trailing: IconButton(
+            onPressed: onDelete,
+            icon: Icon(
+              Icons.delete_forever,
+              color: Colors.red.shade700,
+              size: size.shortestSide * .09,
+            )),
       ),
     );
   }

@@ -29,6 +29,7 @@ class AddingDataScreen extends StatelessWidget {
           AddingDataController()..startValue(isUpdate, title, data, price),
       child: Scaffold(
         appBar: AppBar(
+          toolbarHeight: size.longestSide * .11,
           title: Center(
             child: Text(
               "Adding Item",
@@ -95,7 +96,7 @@ class AddingDataScreen extends StatelessWidget {
                             line: 5,
                           ),
                         ),
-                        SizedBox(height: size.longestSide * .3),
+                        SizedBox(height: size.longestSide * .28),
                         ButtonItem(
                           head: "Adding",
                           onTap: () {

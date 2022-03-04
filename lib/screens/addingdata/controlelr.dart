@@ -32,7 +32,10 @@ class AddingDataController extends Cubit<AddingDataState> {
         'price':
             priceController.text.isEmpty ? "" : priceController.text.trim(),
         'uid': FirebaseAuth.instance.currentUser!.uid,
-        'time': DateFormat.yMMMEd().format(DateTime.now()),
+        'time': DateFormat.jm().format(DateTime.now()),
+        "day": DateTime.now().day,
+        "month": DateTime.now().month,
+        "year": DateTime.now().year
       }).then((value) {
         isDone = false;
         emit(SuccessState());

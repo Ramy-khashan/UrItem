@@ -26,10 +26,7 @@ class _FlashScreenState extends State<FlashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
-              Icons.shopping_bag_outlined,
-              size: size.shortestSide * .5,
-            ),
+            Image.asset("images/uritem.png"),
             SizedBox(
               height: size.longestSide * .02,
             ),
@@ -37,6 +34,9 @@ class _FlashScreenState extends State<FlashScreen> {
               "Ur Item",
               style: TextStyle(
                 fontFamily: "AppBar",
+                letterSpacing: 1,
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w700,
                 fontSize: size.shortestSide * .1,
               ),
             )
